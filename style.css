@@ -103,7 +103,6 @@ h1 {
 }
 
 .nav #nav-bar{
-    position: absolute;
     height: 100%;
     width: auto;
     right: 8%;
@@ -111,14 +110,11 @@ h1 {
 }
 
 #nav-bar li{
-    text-align: center;
     font-size: x-large;
-    height: 100%;
     margin-right: 2%;
     font-weight: 300;
     color: var(--font-color);
-    display: inline-flex;
-    list-style: none;
+    font-family: var(--text-blocks);
 }
 
 #nav-bar li:hover{
