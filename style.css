@@ -103,10 +103,13 @@ h1 {
 }
 
 .nav #nav-bar{
+    position: absolute;
     height: 100%;
     width: auto;
     right: 8%;
     text-align: center;
+    list-style: none;
+    display: inline-flex;
 }
 
 #nav-bar li{
