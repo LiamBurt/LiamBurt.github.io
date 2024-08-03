@@ -1,17 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Mukta+Vaani:wght@200;300&family=Telex&display=swap');
 
-/* Fonts
-font-family: 'Maven Pro', sans-serif;
-font-family: 'Mukta Vaani', sans-serif;
-font-family: 'Telex', sans-serif;
-*/
 
+@font-face { 
+    font-family: "Nunito-Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: 
+      url(/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf) format("truetype");
+}
+@font-face { 
+    font-family: "Nunito-Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: 
+      url(/fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf) format("truetype");
+}
+  
 
 
 :root{
-  --BigFont: 'Maven Pro', sans-serif;
-  --MidFont: 'Mukta Vaani', sans-serif;
-  --SmlFont: 'Telex', sans-serif;
+  /* --BigFont: 'Maven Pro', sans-serif; */
+  --MidFont: 'Nunito-Sans', sans-serif;
+  /* --SmlFont: 'Telex', sans-serif; */
 }
 
 /* width */
