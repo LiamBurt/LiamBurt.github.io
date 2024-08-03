@@ -106,7 +106,6 @@ h1 {
     position: absolute;
     top: 50%;
     right: 8%;
-    height: 100%;
     transform: translateY(-50%);
     display: inline-flex;
     font-family: var(--Headers);
@@ -118,7 +117,7 @@ h1 {
 
 #nav-bar li{
     font-size: 100%;
-    margin: 2%;
+    height: 50%;
 }
 
 #nav-bar li :hover{
