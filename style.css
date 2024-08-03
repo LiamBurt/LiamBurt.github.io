@@ -108,13 +108,14 @@ h1 {
     right: 8%;
     transform: translateY(-50%);
     display: inline-flex;
-    font-family: var(--Titles);
+    font-family: var(--Overpass);
     font-style: italic;
     list-style: none;
 }
 
 #nav-bar li{
-    font-size: 100%;
+    text-align: center;
+    font-size: x-large;
     height: 100%;
     margin-right: 2%;
     color: var(--font-color);
