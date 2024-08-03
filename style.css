@@ -1,6 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: "Nunito-Sans";
+    font-style: normal;
+    src: url(/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf) format("truetype");
+}
 
-  
+@font-face {
+    font-family: "Nunito-Sans";
+    font-style: italic;
+    src: url(/fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Quattrocento Sans";
+    font-style: bold;
+    font-weight: 600;
+    src: url(/fonts/Quattrocento_Sans/QuattrocentoSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Overpass";
+    font-style: normal;
+    src: url(/fonts/Overpass/Overpass-VariableFont_wght.ttf) format("truetype");
+}
 
 
 :root{
