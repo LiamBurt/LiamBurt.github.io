@@ -106,7 +106,7 @@ h1 {
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
-    height: 70%;
+    height: 100%;
     width: auto;
     right: 5%;
     text-align: center;
