@@ -101,3 +101,12 @@ h1 {
     height: 70%;
     transform: translateY(-50%);
 }
+
+.nav #nav-bar{
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    height: 70%;
+    transform: translateY(-50%);
+    display: inline-flex;
+}
