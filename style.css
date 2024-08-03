@@ -1,28 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
-@font-face { 
-    font-family: "Nunito-Sans";
-    font-style: normal;
-    font-weight: 400;
-    src: 
-      url(/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf) format("truetype");
-}
-@font-face { 
-    font-family: "Nunito-Sans";
-    font-style: italic;
-    font-weight: 400;
-    src: 
-      url(/fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf) format("truetype");
-}
   
 
 
 :root{
-  /* --BigFont: 'Maven Pro', sans-serif; */
-  --MidFont: 'Nunito-Sans', sans-serif;
-  /* --SmlFont: 'Telex', sans-serif; */
+  --Titles: 'Quattrocento Sans', sans-serif;
+  --Headers: 'Nunito-Sans', sans-serif;
+  --text-blocks: 'Overpass', sans-serif; 
 
   --Bg-dark: #2c2627;
+  --Bg-light: #524b4c;
+  --accents: #7b7475;
+  --highlights: #a79fa1;
+  --font-color: #d5cdcf;
 }
 
 /* width */
@@ -46,10 +36,6 @@
   background: #555;
 }
 
-html{
-  background-color: #202020;
-  font-family: var(--SmlFont);
-}
 
 body {
   overflow-x: hidden;
@@ -72,5 +58,6 @@ h1 {
 }
 
 #splash {
-    font: var(--MidFont);
+    font-family: var(--Titles);
+    color: var(--font-color);
 }
