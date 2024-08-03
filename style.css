@@ -113,13 +113,14 @@ h1 {
     font-style: italic;
     list-style: none;
     color: var(--font-color);
-    font-size: 10%;
+    
 }
 
 #nav-bar li{
+    font-size: 100%;
     margin: 2%;
 }
 
 #nav-bar li :hover{
-    font-size: 12%;
+    color: var(--highlights);
 }
