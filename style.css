@@ -118,6 +118,7 @@ h1 {
     font-size: x-large;
     height: 100%;
     margin-right: 2%;
+    font-weight: 300;
     color: var(--font-color);
 }
 
