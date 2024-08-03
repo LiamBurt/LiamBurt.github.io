@@ -108,19 +108,18 @@ h1 {
     right: 8%;
     transform: translateY(-50%);
     display: inline-flex;
-    font-family: var(--Headers);
+    font-family: var(--Titles);
     font-style: italic;
     list-style: none;
-    color: var(--font-color);
-    
 }
 
 #nav-bar li{
     font-size: 100%;
     height: 100%;
-    margin: 2%;
+    margin-right: 2%;
+    color: var(--font-color);
 }
 
-#nav-bar li :hover{
+#nav-bar li:hover{
     color: var(--highlights);
 }
