@@ -108,7 +108,7 @@ h1 {
     right: 8%;
     transform: translateY(-50%);
     display: inline-flex;
-    font-family: var(--Overpass);
+    font-family: var(--text-blocks);
     font-style: italic;
     list-style: none;
 }
