@@ -105,16 +105,21 @@ h1 {
 .nav #nav-bar{
     position: absolute;
     top: 50%;
-    right: 4%;
-    height: 70%;
+    right: 8%;
+    height: 100%;
     transform: translateY(-50%);
     display: inline-flex;
     font-family: var(--Headers);
     font-style: italic;
     list-style: none;
     color: var(--font-color);
+    font-size: 10%;
 }
 
 #nav-bar li{
     margin: 2%;
+}
+
+#nav-bar li :hover{
+    font-size: 12%;
 }
