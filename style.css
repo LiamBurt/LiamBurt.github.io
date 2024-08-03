@@ -117,6 +117,8 @@ h1 {
     margin-right: 2%;
     font-weight: 300;
     color: var(--font-color);
+    display: inline-flex;
+    list-style: none;
 }
 
 #nav-bar li:hover{
