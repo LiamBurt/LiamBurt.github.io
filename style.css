@@ -114,9 +114,6 @@ h1 {
 }
 
 #nav-bar li{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     text-align: center;
     font-size: x-large;
     height: 100%;
