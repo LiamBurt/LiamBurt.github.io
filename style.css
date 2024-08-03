@@ -109,4 +109,12 @@ h1 {
     height: 70%;
     transform: translateY(-50%);
     display: inline-flex;
+    font-family: var(--Headers);
+    font-style: italic;
+    list-style: none;
+    color: var(--font-color);
+}
+
+#nav-bar li{
+    margin: 2%;
 }
