@@ -8,10 +8,9 @@ $(document).ready(function() {
 
 document.querySelector('#app').innerHTML = `
 
-    <div id="splash">
-
-        <h1>Splash</h1>
-
+    <div class="nav">
+        <img id="logo" src="images/github-logo.png"/>
+        <ul id="nav-bar"></ul>
     </div>
 
 `

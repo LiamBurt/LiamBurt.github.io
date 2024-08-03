@@ -18,6 +18,13 @@
 }
 
 @font-face {
+    font-family: "Quattrocento Sans";
+    font-style: italic;
+    font-weight: 600;
+    src: url(/fonts/Quattrocento_Sans/QuattrocentoSans-BoldItalic.ttf) format("truetype");
+}
+
+@font-face {
     font-family: "Overpass";
     font-style: normal;
     src: url(/fonts/Overpass/Overpass-VariableFont_wght.ttf) format("truetype");
@@ -78,7 +85,15 @@ h1 {
   background-color: var(--Bg-dark);
 }
 
-#splash {
-    font-family: var(--Titles);
+.nav {
+    background-color: var(--Bg-light);
     color: var(--font-color);
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.nav #logo{
+    float: right;
+    
 }
