@@ -104,13 +104,10 @@ h1 {
 
 .nav #nav-bar{
     position: absolute;
-    top: 50%;
+    height: 100%;
+    width: auto;
     right: 8%;
-    transform: translateY(-50%);
-    display: inline-flex;
-    font-family: var(--text-blocks);
-    font-style: italic;
-    list-style: none;
+    text-align: center;
 }
 
 #nav-bar li{
