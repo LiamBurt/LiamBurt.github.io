@@ -46,6 +46,7 @@ document.querySelector('#app').innerHTML = `
                 <li><img src="./images/SVG/icons8-c-sharp-logo.svg"/> C#</li>
                 <li><img src="./images/SVG/icons8-java.svg"/> Java</li>
                 <li><img src="./images/SVG/icons8-python.svg"/> Python</li>
+                <li><img src="./images/SVG/icons8-lua-language.svg"/> Lua</li>
                 <li><img src="./images/SVG/icons8-adobe-photoshop.svg"/> Photoshop</li>
                 <li><img src="./images/SVG/icons8-canva-app.svg"/> Canva</li>
                 <li><img src="./images/SVG/icons8-aseprite.svg"/> Aseprite</li>
