@@ -203,6 +203,10 @@ h1 {
   margin-block: 0.5rem;
 }
 
+.scroller[data-animated = true] .scroller_inner:hover{
+  animation-play-state: paused;
+}
+
 .scroller[data-animated = true] .scroller_inner{
   width: fit-content;
   flex-wrap: nowrap;
@@ -214,3 +218,4 @@ h1 {
     transform: translate(calc(-50% - 0.5rem));
   }
 }
+
