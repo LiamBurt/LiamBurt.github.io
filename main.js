@@ -40,17 +40,17 @@ document.querySelector('#app').innerHTML = `
     <div id="About" class="About">
         <div id="TechStacks" class="scroller">
             <ul class="stack-list scroller_inner">
-                <li><img src="./icons/svg/icons8-html-5.svg"/> HTML </li>
-                <li><img src="./icons/svg/icons8-css3.svg"/> CSS</li>
-                <li><img src="./icons/svg/icons8-javascript.svg"/> JS</li>
-                <li><img src="./icons/svg/icons8-c-sharp-logo.svg"/> C#</li>
-                <li><img src="./icons/svg/icons8-java.svg"/> Java</li>
-                <li><img src="./icons/svg/icons8-python.svg"/> Python</li>
-                <li><img src="./icons/svg/icons8-adobe-photoshop.svg"/> Photoshop</li>
-                <li><img src="./icons/svg/icons8-canva-app.svg"/> Canva</li>
-                <li><img src="./icons/svg/icons8-aseprite.svg"/> Aseprite</li>
-                <li><img src="./icons/svg/blockbench_logo_black.svg"/> Blockbench</li>
-                <li><img src="./icons/svg/icons8-blender-3d.svg"/> Blender</li>
+                <li><img src="./images/SVG/icons8-html-5.svg"/> HTML </li>
+                <li><img src="./images/SVG/icons8-css3.svg"/> CSS</li>
+                <li><img src="./images/SVG/icons8-javascript.svg"/> JS</li>
+                <li><img src="./images/SVG/icons8-c-sharp-logo.svg"/> C#</li>
+                <li><img src="./images/SVG/icons8-java.svg"/> Java</li>
+                <li><img src="./images/SVG/icons8-python.svg"/> Python</li>
+                <li><img src="./images/SVG/icons8-adobe-photoshop.svg"/> Photoshop</li>
+                <li><img src="./images/SVG/icons8-canva-app.svg"/> Canva</li>
+                <li><img src="./images/SVG/icons8-aseprite.svg"/> Aseprite</li>
+                <li><img src="./images/SVG/blockbench_logo_black.svg"/> Blockbench</li>
+                <li><img src="./images/SVG/icons8-blender-3d.svg"/> Blender</li>
             </ul>
         </div>
         <div id="Info"></div>
