@@ -142,12 +142,12 @@ h1 {
   width: 100%;
   height: 70%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .stack-list{
   list-style: none;
-  
 }
 
 .stack-list li{
@@ -171,6 +171,7 @@ h1 {
 }
 
 .scroller{
+  margin: 0 auto;
   max-width: 95%;
   height: auto;
 }
@@ -194,6 +195,7 @@ h1 {
       white 80%,
       transparent
     );
+    
 }
 
 .scroller_inner{
@@ -217,5 +219,95 @@ h1 {
   to{
     transform: translate(calc(-50% + 0.75rem));
   }
+}
+
+#bio-container{
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  margin: 1rem;
+}
+
+#right-bio{
+  width: 60%;
+  height: 100%;
+}
+
+#bio-list{
+  list-style: none;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#bio-list li{
+  background-color: var(--Bg-light);
+  filter: drop-shadow(0 0 0.2rem var(--Bg-light));
+  margin: 1rem 0rem;
+  height: 10rem;
+  width: 85%;
+  border-radius: 1.5rem;
+  float: right;
+  position: relative;
+  color: var(--font-color);
+  font-family: var(--Headers);
+  font-size: large;
+  font-weight: 200;
+}
+
+#bio-list li div{
+  display: block;
+  padding: 1rem;
+}
+
+#bio-list li div *{
+  margin: 0.2rem 0;
+}
+
+#bio-list li::before{
+  content: '';
+  position: absolute;
+  left: -3rem;
+  top: 60%;
+  bottom: 0;
+  width: 0.25rem;
+  background-color: var(--accents);
+}
+
+#bio-list li:not(:first-child):before{
+  content: '';
+  position: absolute;
+  left: -3rem;
+  top: -2rem;
+  bottom: 0;
+  width: 0.25rem;
+  background-color: var(--accents);
+}
+
+#bio-list li:last-child:before{
+  content: '';
+  position: absolute;
+  left: -3rem;
+  top: -2rem;
+  bottom: 40%;
+  width: 0.25rem;
+  background-color: var(--accents);
+}
+
+#bio-list li::after{
+  content: '';
+  position: absolute;
+  left: -4.37rem;
+  top: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--Bg-dark);
+  border: 0.3rem solid var(--accents);
+  border-radius: 50%;
+}
+
+#left-bio{
+  width: 40%;
+  height: 100%;
 }
 

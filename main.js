@@ -54,7 +54,34 @@ document.querySelector('#app').innerHTML = `
                 <li><img src="./images/SVG/icons8-blender-3d.svg"/> Blender</li>
             </ul>
         </div>
-        <div id="Info"></div>
+        <div id="bio-container">
+            <div id="left-bio"></div>
+            <div id="right-bio">
+                <ul id="bio-list">
+                    <li>
+                        <div>
+                            <h3>Welcome!</h3>
+                            <p>I'm elleclipse, I've had a passion for Web / Game / Software development since i was first introduced to it in school. 
+                            This page aims to provide a collection of my most recent work, wether it's art, music or mods.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>Knowledge...</h3>
+                            <p>I am trained in full-stack software engineering, mainly focusing on web-dev. However, I have personally spent a lot of time
+                            working with codes and programs that were not included in this, such as: photoshop, aseprite, unity and lua to name a few.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>Future...</h3>
+                            <p>I intend to continue expanding my knowledge into new emerging languages and learning more advance techniques for any current ones. </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
     </div>
 
 `
