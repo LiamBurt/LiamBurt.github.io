@@ -52,6 +52,7 @@ document.querySelector('#app').innerHTML = `
                 <li><img src="./images/SVG/icons8-aseprite.svg"/> Aseprite</li>
                 <li><img src="./images/SVG/blockbench_logo_black.svg"/> Blockbench</li>
                 <li><img src="./images/SVG/icons8-blender-3d.svg"/> Blender</li>
+                <li><img src="./images/SVG/icons8-unity.svg"/> Unity</li>
             </ul>
         </div>
         <div id="bio-container">
@@ -81,6 +82,12 @@ document.querySelector('#app').innerHTML = `
                 </ul>
             </div>
             
+        </div>
+        <div id="Blockbench" class="Blockbench">
+            <div id="Blockbench-header">
+                <h1>Blockbench</h1>
+                <div class="triangle-right"></div>
+            </div>
         </div>
     </div>
 
