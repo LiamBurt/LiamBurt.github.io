@@ -352,27 +352,36 @@ h1 {
 }
 
 #Blockbench-header{
+  background-color: red;
   font-family: var(--Headers);
   color: var(--font-color);
   background-color: var(--focus);
-  padding: 0 1rem;
+  width: 40%;
   height: 6rem;
-  width: 18.1rem;
-  display: flex;
-  justify-content: center;
+  font-size: 2.75rem;
+  font-style: italic;
+  font-weight: 600;
+  display: inline-flex;
   align-items: center;
+  padding-left: 1rem ;
   filter: drop-shadow(0 0 0.2rem var(--focus));
+
+  -webkit-mask: 
+  linear-gradient(
+    90deg,
+    white 50%,
+    transparent
+  );
+
+  mask: 
+    linear-gradient(
+      90deg,
+      white 50%,
+      transparent
+    );
 }
 
-.triangle-right {
-  width: 0;
-  height: 0;
-  border-top: 3rem solid transparent;
-  border-bottom: 3rem solid transparent;
-  border-left: 3rem solid var(--focus);
-  filter: drop-shadow(0 0 0.2rem var(--focus));
-  margin-right: -4rem;
-}
+
 
 .waterfall{
   width: 95%;
@@ -558,26 +567,9 @@ h1 {
   }
 
   #Blockbench-header{
-    font-family: var(--Headers);
-    color: var(--font-color);
-    background-color: var(--focus);
+    width: 70%;
     height: 4rem;
-    width: 12rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    filter: drop-shadow(0 0 0.2rem var(--focus));
-    font-size: 0.6rem;
-  }
-  
-  .triangle-right {
-    width: 0;
-    height: 0;
-    border-top: 2rem solid transparent;
-    border-bottom: 2rem solid transparent;
-    border-left: 2rem solid var(--focus);
-    filter: drop-shadow(0 0 0.2rem var(--focus));
-    margin-right: -3.64rem;
+    font-size: 2rem;
   }
 
   .scroller{

@@ -86,8 +86,7 @@ document.querySelector('#app').innerHTML = `
     </div>
     <div id="Blockbench" class="Blockbench">
             <div id="Blockbench-header">
-                <h1>Blockbench</h1>
-                <div class="triangle-right"></div>
+                <p>Blockbench</p>
             </div>
             <div class="waterfall">
                 <div class="box">
