@@ -463,7 +463,7 @@ h1 {
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:650px) {
   .waterfall{
     columns: 1;
     margin: 0;
@@ -539,7 +539,8 @@ h1 {
   .nav #logo{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 90%;
+    margin: 0.3rem 0;
   }
 
   .nav #nav-bar{
