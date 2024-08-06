@@ -374,7 +374,7 @@ h1 {
 }
 
 .waterfall{
-  width: 100%;
+  width: 95%;
   margin: 1rem auto;
   columns: 5;
   column-gap: 1rem;
