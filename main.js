@@ -62,7 +62,7 @@ document.querySelector('#app').innerHTML = `
                     <li>
                         <div>
                             <h3>Welcome!</h3>
-                            <p>I'm elleclipse, I've had a passion for Web / Game / Software development since i was first introduced to it in school. 
+                            <p>I'm Elleclipse, I've had a passion for Web / Game / Software development since i was first introduced to it in school. 
                             This page aims to provide a collection of my most recent work, wether it's art, music or mods.</p>
                         </div>
                     </li>
