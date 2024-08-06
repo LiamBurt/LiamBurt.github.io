@@ -83,13 +83,64 @@ document.querySelector('#app').innerHTML = `
             </div>
             
         </div>
-        <div id="Blockbench" class="Blockbench">
+    </div>
+    <div id="Blockbench" class="Blockbench">
             <div id="Blockbench-header">
                 <h1>Blockbench</h1>
                 <div class="triangle-right"></div>
             </div>
+            <div class="waterfall">
+                <div class="box">
+                    <img src="./images/BlockBench/BlessedBlade.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/BlessedophanimShard.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/blessedScissors.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/BlessedShield.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/BowOfIcarus.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/BloodBlock.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/BloodBow.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/BloodHalberd.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/BloodPrick.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/BloodRazor.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/bloodshed_dagger.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/BloodShield.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/BloodSiphonV2.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/BloodTome.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/FallenCrossSword.png"/>
+                </div>
+                <div class="box">
+                    <img src="./images/BlockBench/FlameBlade.png"/>
+                </div>
+                
+            </div>
         </div>
-    </div>
 
 `
 
