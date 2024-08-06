@@ -42,6 +42,9 @@
   --highlights: #a79fa1;
   --font-color: #d5cdcf;
 
+  --focus: #795bad;
+  --focus-highlight: #af8ee5;
+
   --scroll-duration: 60s;
 }
 
@@ -135,7 +138,7 @@ h1 {
 
 
 #nav-link a:hover{
-    color: var(--highlights);
+    color: var(--focus-highlight);
 }
 
 .About{
@@ -161,6 +164,11 @@ h1 {
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.stack-list li:hover{
+  filter: drop-shadow(0 0 0.2rem var(--focus-highlight));
+  background-color: var(--focus);
 }
 
 .stack-list li img{
@@ -265,6 +273,24 @@ h1 {
   margin: 0.2rem 0;
 }
 
+#bio-list li div h3{
+  border-bottom: var(--focus) 0.11rem solid;
+
+  -webkit-mask: 
+  linear-gradient(
+    90deg,
+    white 20%,
+    transparent
+  );
+
+  mask: 
+    linear-gradient(
+      90deg,
+      white 20%,
+      transparent
+    );
+}
+
 #bio-list li::before{
   content: '';
   position: absolute;
@@ -272,7 +298,7 @@ h1 {
   top: 60%;
   bottom: 0;
   width: 0.25rem;
-  background-color: var(--accents);
+  background-color: var(--focus);
 }
 
 #bio-list li:not(:first-child):before{
@@ -282,7 +308,7 @@ h1 {
   top: -2rem;
   bottom: 0;
   width: 0.25rem;
-  background-color: var(--accents);
+  background-color: var(--focus);
 }
 
 #bio-list li:last-child:before{
@@ -292,7 +318,7 @@ h1 {
   top: -2rem;
   bottom: 40%;
   width: 0.25rem;
-  background-color: var(--accents);
+  background-color: var(--focus);
 }
 
 #bio-list li::after{
@@ -303,7 +329,7 @@ h1 {
   width: 2.5rem;
   height: 2.5rem;
   background-color: var(--Bg-dark);
-  border: 0.3rem solid var(--accents);
+  border: 0.3rem solid var(--focus);
   border-radius: 50%;
 }
 
@@ -322,13 +348,13 @@ h1 {
 #Blockbench-header{
   font-family: var(--Headers);
   color: var(--font-color);
-  background-color: var(--accents);
+  background-color: var(--focus);
   padding: 0 1rem;
   height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: drop-shadow(0 0 0.2rem var(--accents));
+  filter: drop-shadow(0 0 0.2rem var(--focus));
 }
 
 .triangle-right {
@@ -336,7 +362,7 @@ h1 {
   height: 0;
   border-top: 3rem solid transparent;
   border-bottom: 3rem solid transparent;
-  border-left: 3rem solid var(--accents);
-  filter: drop-shadow(0 0 0.2rem var(--accents));
+  border-left: 3rem solid var(--focus);
+  filter: drop-shadow(0 0 0.2rem var(--focus));
   margin-right: -4rem;
 }
