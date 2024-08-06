@@ -577,7 +577,7 @@ h1 {
     border-bottom: 2rem solid transparent;
     border-left: 2rem solid var(--focus);
     filter: drop-shadow(0 0 0.2rem var(--focus));
-    margin-right: -3.75rem;
+    margin-right: -3.64rem;
   }
 
   .scroller{
