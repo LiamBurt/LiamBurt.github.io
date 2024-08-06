@@ -97,6 +97,8 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: var(--Bg-dark);
+  margin: 0;
+  padding: 0;
 }
 
 .nav {
@@ -252,8 +254,8 @@ h1 {
   height: inherit;
   margin: 0;
   padding: 0;
-  position: relative;
 }
+
 #bio-list li{
   background-color: var(--Bg-light);
   filter: drop-shadow(0 0 0.2rem var(--Bg-light));
@@ -262,7 +264,6 @@ h1 {
   width: 85%;
   border-radius: 1.5rem;
   float: right;
-  position: relative;
   color: var(--font-color);
   font-family: var(--Headers);
   font-size: large;
@@ -462,20 +463,35 @@ h1 {
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:400px) {
   .waterfall{
-    columns: 2;
+    columns: 1;
+    margin: 0;
   }
   .waterfall .box img{
     max-width: 50%;
   }
+  .About{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
   #bio-container{
-    width: 80%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     height: 100%;
+  }
+  #bio-list{
+    margin: 0;
+    padding: 0;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   #bio-list li{
+    margin: 1rem 0;
     height: auto;
     width: 85%;
     border-radius: 1rem;
@@ -485,13 +501,19 @@ h1 {
     font-weight: 200;
   }
   #bio-list li::before{
-    content: '';
-    position: absolute;
-    left: -3rem;
-    top: 55%;
-    bottom: 0;
-    width: 0.25rem;
-    background-color: var(--focus);
+    display: none;
+  }
+
+  #bio-list li:not(:first-child):before{
+    display: none;
+  }
+  
+  #bio-list li:last-child:before{
+    display: none;
+  }
+  
+  #bio-list li::after{
+    display: none;
   }
 
   #right-bio{
@@ -505,19 +527,33 @@ h1 {
   }
 
   .nav{
-    height: 15%;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .nav #logo{
-    height: 50%;
-    width: auto;
-    margin-bottom: 2rem;
-    margin-left: 0.5rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .nav #nav-bar{
-    width: 30%;
-    margin-top: 4.5rem;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  #nav-bar li{
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 0.3rem;
+    color: var(--font-color);
+    font-family: var(--text-blocks);
   }
 
   #Blockbench-header{
@@ -541,5 +577,9 @@ h1 {
     border-left: 2rem solid var(--focus);
     filter: drop-shadow(0 0 0.2rem var(--focus));
     margin-right: -3.75rem;
+  }
+
+  .scroller{
+    margin: 0;
   }
 }
