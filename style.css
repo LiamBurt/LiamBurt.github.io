@@ -407,6 +407,31 @@ h1 {
   border: solid 0.2rem var(--Bg-light);
 }
 
+.splashList:nth-child(2){
+  transition-delay: 50ms;
+}
+.splashList:nth-child(3){
+  transition-delay: 100ms;
+}
+
+.Hidden-Hoz{
+  opacity: 0;
+  transform: translateX(-100%);
+  filter: blur(5px);
+  transition: all 1s;
+}
+.Hidden-Ver{
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 2s;
+}
+
+.Show{
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+  filter: blur(0);
+}
+
 
 
 .waterfall .box img{
