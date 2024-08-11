@@ -59,21 +59,21 @@ document.querySelector('#app').innerHTML = `
             <div id="left-bio"></div>
             <div id="right-bio">
                 <ul id="bio-list">
-                    <li class="splashList Hidden-Hoz">
+                    <li class="splashList Hidden-Hoz-R">
                         <div >
                             <h3>Welcome!</h3>
                             <p>I'm Elleclipse, I've had a passion for Web / Game / Software development since i was first introduced to it in school. 
                             This page aims to provide a collection of my most recent work, wether it's art, music or mods.</p>
                         </div>
                     </li>
-                    <li class="splashList Hidden-Hoz">
+                    <li class="splashList Hidden-Hoz-R">
                         <div >
                             <h3>Knowledge...</h3>
                             <p>I am trained in full-stack software engineering, mainly focusing on web-dev. However, I have personally spent a lot of time
                             working with codes and programs that were not included in this, such as: photoshop, aseprite, unity and lua to name a few.</p>
                         </div>
                     </li>
-                    <li class="splashList Hidden-Hoz">
+                    <li class="splashList Hidden-Hoz-R">
                         <div >
                             <h3>Future...</h3>
                             <p>I intend to continue expanding my knowledge into new emerging languages and learning more advance techniques for any current ones. </p>
@@ -85,9 +85,10 @@ document.querySelector('#app').innerHTML = `
         </div>
     </div>
     <div id="Blockbench" class="Blockbench">
-            <div id="Blockbench-header" class="Hidden-Hoz">
-                <p>Blockbench</p>
-            </div>
+        <div id="Blockbench-header" class="Hidden-Hoz-L">
+            <p>Blockbench</p>
+        </div>
+        <div class="waterfall-container">
             <div class="waterfall">
                 <div class="box Hidden-Ver">
                     <img src="./images/BlockBench/BlessedBlade.png"/>
@@ -143,6 +144,15 @@ document.querySelector('#app').innerHTML = `
                 
             </div>
         </div>
+    </div>
+    <div id="Mods" class="Mods">
+        <div id="Mod-header" class="Hidden-Hoz-R">
+            <p>Mods</p>
+        </div>
+        <div class="combat-continuity">
+            <img src="./images/Mods/Minecraft/Vanilla-expanded/Combat-Continuity/combat_continuity.png" class="Hidden-grow"/>
+        </div>
+    </div>
 
 `
 
@@ -158,5 +168,5 @@ const observer = new IntersectionObserver((entries) =>
     })
 );
 
-const hiddenElems = document.querySelectorAll('.Hidden-Ver,.Hidden-Hoz');
+const hiddenElems = document.querySelectorAll('.Hidden-Ver,.Hidden-Hoz-L,.Hidden-Hoz-R,.Hidden-grow');
 hiddenElems.forEach((element) => observer.observe(element));
