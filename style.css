@@ -112,14 +112,7 @@ h1 {
     margin-bottom: 0;
 }
 
-.nav #logo{
-    height: 70%;
-    width: auto;
-    margin: 1%;
-}
-
 .nav #nav-bar{
-    width: 30%;
     margin: 1%;
     text-align: center;
     list-style: none;
@@ -340,9 +333,11 @@ h1 {
 }
 
 #left-bio{
-  background-color: red;
   width: 40%;
   height: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #left-bio img{

@@ -57,6 +57,7 @@ document.querySelector('#app').innerHTML = `
         <div id="bio-container">
             <div id="left-bio">
                 <img src="./images/BlockBench/Ravens-Gate_Logo.png"/>
+                <img src="./images/BlockBench/FullCollection_Ravens-Gate.png"/>
             </div>
             <div id="right-bio">
                 <ul id="bio-list">
