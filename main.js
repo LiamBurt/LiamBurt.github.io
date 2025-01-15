@@ -57,14 +57,23 @@ document.querySelector('#app').innerHTML = `
         <div id="bio-container">
             <div id="left-bio">
                 <img src="./images/BlockBench/Ravens-Gate_Logo.png"/>
-                <img src="./images/BlockBench/FullCollection_Ravens-Gate.png"/>
+                <div id="left-bio-img-carousel">
+                    <img src="./images/BlockBench/FullCollection.png"/>
+                    <img src="./images/BlockBench/CharBaseV3.png"/>
+                    <img src="./images/BlockBench/Foliage.png"/>
+                    <img src="./images/BlockBench/Instruments.png"/>
+                    <img src="./images/BlockBench/PineTree.png"/>
+                    <img src="./images/BlockBench/RavensCross.png"/>
+                    <img src="./images/BlockBench/Target.png"/>
+                    <img src="./images/BlockBench/Weapons.png"/>
+                </div>
             </div>
             <div id="right-bio">
                 <ul id="bio-list">
                     <li class="splashList Hidden-Hoz-R">
                         <div >
                             <h3>Welcome!</h3>
-                            <p>I'm Elleclipse, I've had a passion for Web / Game / Software development since i was first introduced to it in school. 
+                            <p>I'm Liam, I've had a passion for Web / Game / Software development since i was first introduced to it in school. 
                             This page aims to provide a collection of my most recent work, wether it's art, music or mods.</p>
                         </div>
                     </li>

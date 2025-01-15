@@ -342,8 +342,15 @@ h1 {
 }
 
 #left-bio img{
-  width: 80%;
+  width: 100%;
   margin: 1rem;
+}
+
+#left-bio-img-carousel{
+  width: 80%;
+  display: inline-flex;
+  margin: 0.5rem;
+  overflow: hidden;
 }
 
 
