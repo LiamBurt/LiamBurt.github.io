@@ -28,7 +28,6 @@ $(document).ready(function() {
 document.querySelector('#app').innerHTML = `
 
     <div class="nav">
-        <img id="logo" src="images/github-logo.png"/>
         <ul id="nav-bar">
             <li id="nav-link"><a href="#About">About</a></li>
             <li id="nav-spacer"> / </li>
@@ -56,7 +55,9 @@ document.querySelector('#app').innerHTML = `
             </ul>
         </div>
         <div id="bio-container">
-            <div id="left-bio"></div>
+            <div id="left-bio">
+                <img src="./images/BlockBench/Ravens-Gate_Logo.png"/>
+            </div>
             <div id="right-bio">
                 <ul id="bio-list">
                     <li class="splashList Hidden-Hoz-R">
