@@ -342,6 +342,12 @@ h1 {
 #left-bio{
   width: 40%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#left-bio img{
+  width: 80%;
 }
 
 
