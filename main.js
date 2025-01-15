@@ -138,31 +138,10 @@ document.querySelector('#app').innerHTML = `
                     <img src="./images/BlockBench/BloodBow.png"/>
                 </div>
                 <div class="box Hidden-Ver">
-                    <img src="./images/BlockBench/BloodHalberd.png"/>
-                </div>
-                <div class="box Hidden-Ver">
-                    <img src="./images/BlockBench/BloodPrick.png"/>
-                </div>
-                <div class="box Hidden-Ver">
-                    <img src="./images/BlockBench/BloodRazor.png"/>
-                </div>
-                <div class="box Hidden-Ver">
-                    <img src="./images/BlockBench/bloodshed_dagger.png"/>
-                </div>
-                <div class="box Hidden-Ver">
-                    <img src="./images/BlockBench/BloodShield.png"/>
-                </div>
-                <div class="box Hidden-Ver">
                     <img src="./images/BlockBench/BloodSiphonV2.png"/>
                 </div>
                 <div class="box Hidden-Ver">
                     <img src="./images/BlockBench/BloodTome.png"/>
-                </div>
-                <div class="box Hidden-Ver">
-                    <img src="./images/BlockBench/FallenCrossSword.png"/>
-                </div>
-                <div class="box Hidden-Ver">
-                    <img src="./images/BlockBench/FlameBlade.png"/>
                 </div>
                 <div class="box Hidden-Ver">
                     <img src="./images/BlockBench/CharMain.png"/>
