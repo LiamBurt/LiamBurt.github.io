@@ -57,16 +57,7 @@ document.querySelector('#app').innerHTML = `
         <div id="bio-container">
             <div id="left-bio">
                 <img src="./images/BlockBench/Ravens-Gate_Logo.png"/>
-                <div id="left-bio-img-carousel">
-                    <img src="./images/BlockBench/FullCollection.png"/>
-                    <img src="./images/BlockBench/CharBaseV3.png"/>
-                    <img src="./images/BlockBench/Foliage.png"/>
-                    <img src="./images/BlockBench/Instruments.png"/>
-                    <img src="./images/BlockBench/PineTree.png"/>
-                    <img src="./images/BlockBench/RavensCross.png"/>
-                    <img src="./images/BlockBench/Target.png"/>
-                    <img src="./images/BlockBench/Weapons.png"/>
-                </div>
+                <img src="./images/BlockBench/FullCollection_Ravens-Gate.png"/>
             </div>
             <div id="right-bio">
                 <ul id="bio-list">
@@ -101,6 +92,27 @@ document.querySelector('#app').innerHTML = `
         </div>
         <div class="waterfall-container">
             <div class="waterfall">
+                <div class="box Hidden-Ver">
+                    <img src="./images/BlockBench/CharBaseV3.png"/>
+                </div>
+                <div class="box Hidden-Ver">
+                    <img src="./images/BlockBench/Foliage.png"/>
+                </div>
+                <div class="box Hidden-Ver">
+                    <img src="./images/BlockBench/Instruments.png"/>
+                </div>
+                <div class="box Hidden-Ver">
+                    <img src="./images/BlockBench/PineTree.png"/>
+                </div>
+                <div class="box Hidden-Ver">
+                    <img src="./images/BlockBench/RavensCross.png"/>
+                </div>
+                <div class="box Hidden-Ver">
+                    <img src="./images/BlockBench/Target.png"/>
+                </div>
+                <div class="box Hidden-Ver">
+                    <img src="./images/BlockBench/Weapons.png"/>
+                </div>
                 <div class="box Hidden-Ver">
                     <img src="./images/BlockBench/BlessedBlade.png"/>
                 </div>
