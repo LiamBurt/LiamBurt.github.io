@@ -113,6 +113,7 @@ h1 {
 }
 
 .nav #nav-bar{
+    width: 100%;
     margin: 1%;
     text-align: center;
     list-style: none;
@@ -342,6 +343,7 @@ h1 {
 
 #left-bio img{
   width: 80%;
+  margin: 1rem;
 }
 
 
