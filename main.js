@@ -114,6 +114,9 @@ document.querySelector('#app').innerHTML = `
                     <img src="./images/BlockBench/Weapons.png"/>
                 </div>
                 <div class="box Hidden-Ver">
+                    <img src="./images/BlockBench/Shield.png"/>
+                </div>
+                <div class="box Hidden-Ver">
                     <img src="./images/BlockBench/BlessedBlade.png"/>
                 </div>
                 <div class="box Hidden-Ver">
